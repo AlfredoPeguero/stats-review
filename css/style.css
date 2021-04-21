@@ -7,6 +7,36 @@
 }
 body{
     background: hsl(233, 47%, 7%);
+    padding: 30px;
+}
+body .container{
+   max-width: 375px;
+   background-color: hsl(244, 38%, 16%);
+   border-radius: 10px;
+   display: flex;
+  flex-direction: column;
+   
+}
+.container .container-img img::after{
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: hsl(277, 64%, 61%);
+  top: 0;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  z-index: 0;
+}
+.container .container-img img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 40px;
+    
+}
+.main-title, .stats, .description{
+  color: aliceblue;
+  font-size: 15px;
 }
 
 .attribution {
